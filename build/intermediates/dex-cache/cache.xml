@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_4c5f346d0864210ba18b8608ec2ae00cc9b1797b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\libs\GenAsync.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0f5e48bcb980aa260360949d8c5bc5b348359ee2">
+        <dex dex="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\build\intermediates\transforms\dex\debug\folders\1000\2\GenAsync.1.2_8fb27024f35768736d0c5e809ded10a88254a285\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="714e100131a83cace0b382be26a110ee95d29dd7">
+        <dex dex="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_15bfef7b2df7e4177854631942c53ed53bd85628\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\libs\KGJsonConverter.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cea743dc2e193922f7e7dc34858ef15b00afc6db">
+        <dex dex="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\build\intermediates\transforms\dex\debug\folders\1000\2\KGJsonConverter_b49e423b31d1117c734baf2639a17fb3cd81c112\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Elwis\.android\build-cache\50eeed6fcd805351b02db92e65c9f5e8ef5bb119\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="541a2ad68dc68aa49795821f8280b7624e6a0c9b">
+        <dex dex="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cbfb3263bdd0f896d23aead090bee8137d4f36f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\libs\gson-2.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.2.4_b1bd32d10c25b688dcd9ea57af9761d84b8d36ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Elwis\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha7\constraint-layout-solver-1.0.0-alpha7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="439eeb5ffd54cbd18db0a6aea471e8356f19fc36">
+        <dex dex="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-alpha7_10ed19ba5a25cd3cac273aa3c3388754d3a13389\classes.dex" />
+    </item>
+
+</items>
