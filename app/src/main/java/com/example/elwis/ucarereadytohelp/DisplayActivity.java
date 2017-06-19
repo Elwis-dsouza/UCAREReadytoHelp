@@ -17,13 +17,15 @@ protected void onCreate(Bundle savedInstanceState) {
  setContentView(R.layout.activity_display);
 
        TextView nameView=(TextView)findViewById(R.id.result);
+        TextView pmidTextView = (TextView) findViewById(R.id.PMID);
      nameView.setText(getIntent().getExtras().getString("Drugname"));
 
 
         Intent intent = getIntent();
         TextView Referenceid=(TextView)findViewById(R.id.PMID);
         Post myComment = (Post )intent.getParcelableExtra("Referenceid");
-        String pmid = myComment.getReference();
+        String pmid = intent.getExtras().getString("pmid");
+        pmidTextView.setText(pmid);
        // Referenceid.setText(getIntent().getExtras().getString("Referenceid"));
         //nameView.setText("Referenceid");
 

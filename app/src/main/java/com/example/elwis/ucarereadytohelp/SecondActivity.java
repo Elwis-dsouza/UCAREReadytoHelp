@@ -84,6 +84,7 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
                                     Intent intent = new Intent(SecondActivity.this, DisplayActivity.class);
                                     intent.putExtra("Drugname", etDrugname.getText().toString());
                                     intent.putExtra("Referenceid", Referenceid);
+                                    intent.putExtra("pmid", s.replace("Drug found", ""));
 // assign the bundle to the intent
 
                                    // i.putExtras(bundle);

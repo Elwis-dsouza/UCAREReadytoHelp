@@ -3,66 +3,237 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/home/chronix/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_4c5f346d0864210ba18b8608ec2ae00cc9b1797b\classes.dex" />
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/javawriter-2.1.1_5f4908428afa2c820df9b087abfec051881c479e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\libs\GenAsync.1.2.jar"
+        jar="/home/chronix/.android/build-cache/fed0d8ebd5f7a1211a35a21b42f05f84ef231605/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0f5e48bcb980aa260360949d8c5bc5b348359ee2">
-        <dex dex="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\build\intermediates\transforms\dex\debug\folders\1000\2\GenAsync.1.2_8fb27024f35768736d0c5e809ded10a88254a285\classes.dex" />
+        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_59280ac749424c795ec387aa554a2be411049f75/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="/home/chronix/.android/build-cache/57ffd14f17fd456980020d6dc90c450ce2d29ee1/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="714e100131a83cace0b382be26a110ee95d29dd7">
-        <dex dex="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_15bfef7b2df7e4177854631942c53ed53bd85628\classes.dex" />
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1df91a5b57ff4eb720d8b24ca7969296dd4f3d47/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\libs\KGJsonConverter.jar"
+        jar="/home/chronix/.android/build-cache/031c074d41af85ad023fb7de55366ba86c059096/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="cea743dc2e193922f7e7dc34858ef15b00afc6db">
-        <dex dex="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\build\intermediates\transforms\dex\debug\folders\1000\2\KGJsonConverter_b49e423b31d1117c734baf2639a17fb3cd81c112\classes.dex" />
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_363509c768f57e191de2a228cf68176d48c56ec7/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Elwis\.android\build-cache\50eeed6fcd805351b02db92e65c9f5e8ef5bb119\output\jars\classes.jar"
+        jar="/home/chronix/.android/build-cache/eb8ff32048faa979b9a8c6139b2fdd5e1104c91a/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="541a2ad68dc68aa49795821f8280b7624e6a0c9b">
-        <dex dex="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cbfb3263bdd0f896d23aead090bee8137d4f36f3\classes.dex" />
+        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_52d5022bc08d8bdd7f8fea5e04bb08b5a6a0db3d/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\libs\gson-2.2.4.jar"
+        jar="/home/chronix/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/hamcrest-library-1.3_4ee655d6f5f2a6c1db16b6c28b32f4a078277a64/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/libs/gson-2.2.4.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="a60a5e993c98c864010053cb901b7eab25306568">
-        <dex dex="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.2.4_b1bd32d10c25b688dcd9ea57af9761d84b8d36ea\classes.dex" />
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/2/gson-2.2.4_3f9def7d2609392e49cfff07eaeeae4d535ddc16/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Elwis\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha7\constraint-layout-solver-1.0.0-alpha7.jar"
+        jar="/home/chronix/.android/build-cache/c4d1cb2c05d7529008f812d055ed080cbe14a18d/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="439eeb5ffd54cbd18db0a6aea471e8356f19fc36">
-        <dex dex="C:\Users\Elwis\Desktop\UCAREReadytoHelp\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-alpha7_10ed19ba5a25cd3cac273aa3c3388754d3a13389\classes.dex" />
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3217e10f0a59588d4cf454f44ece5c2a199122c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chronix/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-2.0.1_da7222dad262274cd9f52cf5d73bc67451d40825/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7a0b5fc573d9f30dd769dc3f8c45ff9b1a3c1fbe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chronix/.android/build-cache/17b4c976fad8b83351409874c84907af6d3fcd3a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_58834a6188761a5eef93044a7e51a6c544f81369/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chronix/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.3/5de0c73fef18917cd85d0ab70bb23818685e4dfd/hamcrest-integration-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/hamcrest-integration-1.3_fb612625432bac1539d7295d40dc63c7cfbb672a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/apps/android-sdk-linux/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_62460143a47061cce3189f91a9b2b41050c135eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42e4f09e5541c0ff754d52424ab2ec9daf58005e">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_db8b423ba19d554a4c30723f6eca2716694ea3c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chronix/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/hamcrest-core-1.3_a30722701d694fd3c3f7b2cf80a2ba777e9f430c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chronix/.android/build-cache/954ce6195f770963875e469336dfc3e12a63dbd3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a890ee8445927649d9ed50f625a315d8758688be">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_71bd19d106728eb9e67248c81ddc5d2a50a2c3ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chronix/.android/build-cache/e292731a82571416e3d231df014d90ba79dc3d98/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6389745cd059e88f28bae6a3caa8e6f5dc4ba6de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chronix/.android/build-cache/82eeeae16be1e68e41b51fd1510fd68ce7b4de14/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5553c3597d5f766a8364a49925fcbb304bb091b">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_099c8983928588a1cf6b99cea0790a723996eed4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/libs/KGJsonConverter.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cea743dc2e193922f7e7dc34858ef15b00afc6db">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/2/KGJsonConverter_5903ec617092c10379d1208479cdf1fec1a4132a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/libs/GenAsync.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0f5e48bcb980aa260360949d8c5bc5b348359ee2">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/2/GenAsync.1.2_a22850f50b554f18662949fbb8c4cc64f6fd5a67/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chronix/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.annotation-api-1.2_12260acc1e7906e901e8f6102124e25fe68017c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chronix/.android/build-cache/c737f05c9424394e5284a30fc8d786a88fe32396/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fe72f12075bfca510c90c9be44029f4fdf539b7c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chronix/.android/build-cache/9b545eaba0adadcac0f45aa17ac8ffc85aa3599b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_504af6bb8cab84e678565e5c1fd15f6d5d01ab4c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chronix/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/junit-4.12_b1547e7e5d0cdf07eed9f9461a46874f9cd2e88a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chronix/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.inject-1_4d1928d148b18babeea44e2f5cb5a336b900400f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chronix/.android/build-cache/0f0798e8051417e2bbca1079b4c215cd17db5fc0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/chronix/AndroidStudioProjects/UCAREReadytoHelp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0708d9aacbb962e808d0ddd2c4cb8bfed42eeeed/classes.dex" />
     </item>
 
 </items>
