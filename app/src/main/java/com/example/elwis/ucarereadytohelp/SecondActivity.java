@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.kosalgeek.genasync12.AsyncResponse;
 import com.kosalgeek.genasync12.PostResponseAsyncTask;
@@ -50,24 +51,25 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
                             public void processFinish(String s) {
                                 Log.d(LOG, s);
                                 try {
-                                    JSONObject jsonObject = new JSONObject("s");
-                                    if(jsonObject.getString("status").equals("Drug Not found")) {//(s.contains("Drug Not found")) {
+                                    JSONObject jsonObject = new JSONObject(s);
+                                    if(jsonObject.getString("status").equals("Drug Found")) {//(s.contains("Drug Not found")) {
                                         //Toast.makeText(SecondActivity.this, "Drug Successfully found", Toast.LENGTH_LONG).show();
                                         Intent intent = new Intent(SecondActivity.this, DisplayActivity.class);
                                         intent.putExtra("Drugname", etDrugname.getText().toString());
                                         intent.putExtra("Referenceid", Referenceid);
-                                        intent.putExtra("pmid", s.replace("Drug Not found", ""));
+                                        intent.putExtra("pmid", jsonObject.getJSONArray("status").toString());
                                         startActivity(intent);
 
-                                    } else {
+                                    } else if (jsonObject.getString("status").equals("Drug Not found")){
                                         Intent intent = new Intent(SecondActivity.this, Display2Activity.class);
                                         intent.putExtra("Drugname", etDrugname.getText().toString());
                                         startActivity(intent);
+                                    } else {
+                                        Toast.makeText(SecondActivity.this, "Something went wrong", Toast.LENGTH_LONG).show();
                                     }
                                 } catch (JSONException e) {
                                     e.printStackTrace();
                                 }
-
                             }
                         });
                 task1.execute("http://www.e-bioinformatics.net/db/utipedia/test/login2.php");
