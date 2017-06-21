@@ -3,6 +3,13 @@
     package="com.example.elwis.ucarereadytohelp">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!--
+ATTENTION: This was auto-generated to add Google Play services to your project for
+    App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+    -->
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
 
     <application
         android:allowBackup="true"
@@ -29,15 +36,8 @@
         <activity android:name=".Display2Activity" />
         <activity android:name=".PatientDisplay" />
         <activity android:name=".HelpActivity" />
-        <!--
- ATTENTION: This was auto-generated to add Google Play services to your project for
-     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
-        -->
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
-
-        <activity android:name=".UTIPEDIA"></activity>
+        <activity android:name=".UTIPEDIA" />
+        <activity android:name=".Utifo"></activity>
     </application>
 
 </manifest>

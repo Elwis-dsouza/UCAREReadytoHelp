@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:scrollbars="vertical" >
@@ -11,6 +11,7 @@
         android:shrinkColumns="*"
         android:stretchColumns="*" >
 
+
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -21,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_span="4"
                 android:padding="18dip"
-                android:text="1.Are you suffering/suffered from any Sexually transmitted disease(STD)?"
+                android:text="1. Are you facing blocked urine flow?"
                 android:textColor="@android:color/black"
                 android:textSize="18dp" />
         </TableRow>
@@ -54,6 +55,7 @@
             </RadioGroup>
         </TableRow>
 
+
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -64,7 +66,7 @@
                 android:layout_height="wrap_content"
                 android:layout_span="4"
                 android:padding="18dip"
-                android:text="2. How many times in a week you take coffee?"
+                android:text="2. Are you having dark cloudy bloody or foul-smelling urine?"
                 android:textColor="@android:color/black"
                 android:textSize="18dp" />
         </TableRow>
@@ -85,35 +87,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:checked="true"
-                    android:text="Daily"
+                    android:text="Yes"
                     android:textColor="@android:color/black" />
 
                 <RadioButton
                     android:id="@+id/answer2B"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="3-4 times"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer2C"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="more than once daily"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer2D"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="very rare"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer2E"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Never taken"
+                    android:text="No"
                     android:textColor="@android:color/black" />
             </RadioGroup>
         </TableRow>
@@ -128,7 +109,7 @@
                 android:layout_height="wrap_content"
                 android:layout_span="4"
                 android:padding="18dip"
-                android:text="3. How many times in a week you smoke tobacco?"
+                android:text="3. Are you often suffering from nausea and vomiting?"
                 android:textColor="@android:color/black"
                 android:textSize="18dp" />
         </TableRow>
@@ -149,556 +130,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:checked="true"
-                    android:text="Daily"
+                    android:text="Yes"
                     android:textColor="@android:color/black" />
 
                 <RadioButton
                     android:id="@+id/answer3B"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="3-4 times"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer3C"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="more than once daily"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer3D"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="very rare"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer3E"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Never taken"
-                    android:textColor="@android:color/black" />
-            </RadioGroup>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal" >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_span="4"
-                android:padding="18dip"
-                android:text="4. How many times in a week you consume alcohol?"
-                android:textColor="@android:color/black"
-                android:textSize="18dp" />
-        </TableRow>
-
-        <TableRow
-            android:id="@+id/table4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-
-            <RadioGroup
-                android:id="@+id/answer4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.4" >
-
-                <RadioButton
-                    android:id="@+id/answer4A"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:text="Daily"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer4B"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="3-4 times"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer4C"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="more than once daily"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer4D"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="very rare"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer4E"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Never taken"
-                    android:textColor="@android:color/black" />
-            </RadioGroup>
-        </TableRow>
-
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal" >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_span="4"
-                android:padding="18dip"
-                android:text="5. Are you pregnant? "
-                android:textColor="@android:color/black"
-                android:textSize="18dp" />
-        </TableRow>
-
-        <TableRow
-            android:id="@+id/table5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-
-            <RadioGroup
-                android:id="@+id/answer5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.4" >
-
-                <RadioButton
-                    android:id="@+id/answer5A"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:text="Yes"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer5B"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:text="No"
                     android:textColor="@android:color/black" />
             </RadioGroup>
         </TableRow>
 
         <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal" >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_span="4"
-                android:padding="18dip"
-                android:text="6. How many times you are urinating in a day? "
-                android:textColor="@android:color/black"
-                android:textSize="18dp" />
-        </TableRow>
-
-        <TableRow
-            android:id="@+id/table6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-
-            <RadioGroup
-                android:id="@+id/answer6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.4" >
-
-                <RadioButton
-                    android:id="@+id/answer6A"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:text=">=4 times"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer6B"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="5-8 times"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer6C"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="9-12 times"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer6D"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=">12"
-                    android:textColor="@android:color/black" />
-            </RadioGroup>
-        </TableRow>
-
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal" >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_span="4"
-                android:padding="18dip"
-                android:text="7. Are you facing blocked urine flow?"
-                android:textColor="@android:color/black"
-                android:textSize="18dp" />
-        </TableRow>
-
-        <TableRow
-            android:id="@+id/table7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-
-            <RadioGroup
-                android:id="@+id/answer7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.4" >
-
-                <RadioButton
-                    android:id="@+id/answer7A"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:text="Yes"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer7B"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="No"
-                    android:textColor="@android:color/black" />
-            </RadioGroup>
-        </TableRow>
-
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal" >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_span="4"
-                android:padding="18dip"
-                android:text="8. Do you have problem of Incontinence(Not able to control when you urinate)?"
-                android:textColor="@android:color/black"
-                android:textSize="18dp" />
-        </TableRow>
-
-        <TableRow
-            android:id="@+id/table8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-
-            <RadioGroup
-                android:id="@+id/answer8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.4" >
-
-                <RadioButton
-                    android:id="@+id/answer8A"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:text="Yes"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer8B"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="No"
-                    android:textColor="@android:color/black" />
-            </RadioGroup>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal" >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_span="4"
-                android:padding="18dip"
-                android:text="9. Despite strong urge to urinate you are passing small amount of urine?"
-                android:textColor="@android:color/black"
-                android:textSize="18dp" />
-        </TableRow>
-
-        <TableRow
-            android:id="@+id/table9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-
-            <RadioGroup
-                android:id="@+id/answer9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.4" >
-
-                <RadioButton
-                    android:id="@+id/answer9A"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:text="Yes"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer9B"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="No"
-                    android:textColor="@android:color/black" />
-            </RadioGroup>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal" >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_span="4"
-                android:padding="18dip"
-                android:text="10. Do you have pain in your back or side below the ribs?"
-                android:textColor="@android:color/black"
-                android:textSize="18dp" />
-        </TableRow>
-
-        <TableRow
-            android:id="@+id/table10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-
-            <RadioGroup
-                android:id="@+id/answer10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.4" >
-
-                <RadioButton
-                    android:id="@+id/answer10A"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:text="Yes"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer10B"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="No"
-                    android:textColor="@android:color/black" />
-            </RadioGroup>
-        </TableRow>
-
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal" >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_span="4"
-                android:padding="18dip"
-                android:text="11. Are you having dark cloudy bloody or foul-smelling urine?"
-                android:textColor="@android:color/black"
-                android:textSize="18dp" />
-        </TableRow>
-
-        <TableRow
-            android:id="@+id/table11"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-
-            <RadioGroup
-                android:id="@+id/answer11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.4" >
-
-                <RadioButton
-                    android:id="@+id/answer11A"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:text="Yes"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer11B"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="No"
-                    android:textColor="@android:color/black" />
-            </RadioGroup>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal" >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_span="4"
-                android:padding="18dip"
-                android:text="12. Do you often feel tired shaky weak and having muscle aches?"
-                android:textColor="@android:color/black"
-                android:textSize="18dp" />
-        </TableRow>
-
-        <TableRow
-            android:id="@+id/table12"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-
-            <RadioGroup
-                android:id="@+id/answer12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.4" >
-
-                <RadioButton
-                    android:id="@+id/answer12A"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:text="Yes"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer12B"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="No"
-                    android:textColor="@android:color/black" />
-            </RadioGroup>
-        </TableRow>
-
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal" >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_span="4"
-                android:padding="18dip"
-                android:text="13. Are you often suffering from nausea and vomiting?"
-                android:textColor="@android:color/black"
-                android:textSize="18dp" />
-        </TableRow>
-
-        <TableRow
-            android:id="@+id/table13"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-
-            <RadioGroup
-                android:id="@+id/answer13"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.4" >
-
-                <RadioButton
-                    android:id="@+id/answer13A"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:text="Yes"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer13B"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="No"
-                    android:textColor="@android:color/black" />
-            </RadioGroup>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal" >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_span="4"
-                android:padding="18dip"
-                android:text="14. Are you diagnosed with UTI in past or present?"
-                android:textColor="@android:color/black"
-                android:textSize="18dp" />
-        </TableRow>
-
-        <TableRow
-            android:id="@+id/table14"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-
-            <RadioGroup
-                android:id="@+id/answer14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.4" >
-
-                <RadioButton
-                    android:id="@+id/answer14A"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:checked="true"
-                    android:text="Yes"
-                    android:textColor="@android:color/black" />
-
-                <RadioButton
-                    android:id="@+id/answer14B"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="No"
-                    android:textColor="@android:color/black" />
-            </RadioGroup>
-        </TableRow>
-
-
-
-        <TableRow
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal" >
 
@@ -713,4 +158,4 @@
         </TableRow>
     </TableLayout>
 
-</ScrollView>
+</RelativeLayout>

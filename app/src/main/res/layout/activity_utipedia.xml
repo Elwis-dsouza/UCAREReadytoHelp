@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_elwis"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.elwis.ucarereadytohelp.UTIPEDIA">
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.elwis.ucarereadytohelp.SecondActivity"
+    android:weightSum="1"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="
+
+
+
+        Now a days, there is a serious need of Information Transfer regarding diseases which are emerging day by day. Information Technology can help to get this transfer so easily and in less cost so that many people may become aware of symptoms, causes, Prevention etc. of particular diseases. Patients need to know what their symptoms means, On the other hand, Doctors too require some sort of technology that helps them to get more precise knowledge about the medicine they prescribe and the latest findings done on that particular drug, etc. One of the emerging disease today is UTI (Urinary Tract Infection), that are caused by microbes—organisms too small to be seen without a microscope.
+ Keeiping this in mind, 'DEPARMENT OF COMPUTATIONAL BIOLOGY AND BIOINFORMATICS SHUATS'  Has developed an Android based application named 'UTIPEDIA' for reporting resistant drugs against Escherichia coli, which is useful to both Doctors and Pateints of UTI. It has the regularly updating database of resistent drugs with thier Pubmed id for reference.
+ which help doctos to know about the resistent Drugs and has the symptoms panel for patients in which they can enter thier symptoms and based on algorithm it will predict whether the person is affected with UTI or not.
+
+ For more details,
+
+ Contact: Er. Saurav B. Saha"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
