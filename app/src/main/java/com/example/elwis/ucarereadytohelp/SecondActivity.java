@@ -60,10 +60,6 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
                                         intent.putExtra("pmid", jsonObject.getJSONArray("status").toString());
                                         startActivity(intent);
 
-                                    } else if (jsonObject.getString("status").equals("Drug Not found")){
-                                        Intent intent = new Intent(SecondActivity.this, Display2Activity.class);
-                                        intent.putExtra("Drugname", etDrugname.getText().toString());
-                                        startActivity(intent);
                                     } else {
                                         Toast.makeText(SecondActivity.this, "Something went wrong", Toast.LENGTH_LONG).show();
                                     }

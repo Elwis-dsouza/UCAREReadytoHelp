@@ -1,25 +1,28 @@
 package com.example.elwis.ucarereadytohelp;
 
 import android.app.Activity;
-import android.os.AsyncTask;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioGroup;
+import android.widget.Toast;
+
+import com.kosalgeek.genasync12.AsyncResponse;
+import com.kosalgeek.genasync12.PostResponseAsyncTask;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @SuppressWarnings("deprecation")
-public class PatientDisplay extends Activity {
+public class PatientDisplay extends Activity implements View.OnClickListener {
 
-    private String URL_NEW_PREDICTION = "http://10.0.2.2/tech/new_predict.php";
+    final String LOG = "PatientDisplay";
+    //private String URL_NEW_PREDICTION = "http://www.e-bioinformatics.net/db/utipedia/test/pateint.php";
     private Button btnAddPrediction;
 
     String blocked = "1";
@@ -30,6 +33,7 @@ public class PatientDisplay extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_patient_display);
+
 
         RadioGroup Blocked = (RadioGroup) findViewById(R.id.answer1);
 
@@ -85,80 +89,43 @@ public class PatientDisplay extends Activity {
 
                 }
 
+
             }
         });
-
 
 
         btnAddPrediction = (Button) findViewById(R.id.submit);
 
-        btnAddPrediction.setOnClickListener(new View.OnClickListener() {
-
-            public void onClick(View v) {
-                // TODO Auto-generated method stub
-
-                new AddNewPrediction().execute(blocked,smelling,nausea);
-            }
-
-        });
-
-    }
-
-    private class AddNewPrediction extends AsyncTask<String, Void, Void> {
-
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-
-        }
-
-        @Override
-        protected Void doInBackground(String... arg) {
-            // TODO Auto-generated method stub
-            String block = arg[0];
-            String smell = arg[1];
-            String nau = arg[2];
-            // Preparing post params
-            List<NameValuePair> params = new ArrayList<NameValuePair>();
-            params.add(new BasicNameValuePair("block", block));
-            params.add(new BasicNameValuePair("smell", smell));
-            params.add(new BasicNameValuePair("nau", nau));
+        btnAddPrediction.setOnClickListener(this);}
 
 
-            ServiceHandler serviceClient = new ServiceHandler();
+        public void onClick(View v) {
 
-            String json = serviceClient.makeServiceCall(URL_NEW_PREDICTION,
-                    ServiceHandler.POST, params);
+        List<NameValuePair> params = new ArrayList<>();
+        String block = blocked;
+        String smell = smelling;
+        String nau = nausea;
+        params.add(new BasicNameValuePair("block", block));
+        params.add(new BasicNameValuePair("smell", smell));
+        params.add(new BasicNameValuePair("nau", nau));
 
-            Log.d("Create Prediction: ", "> " + json);
 
-            if (json != null) {
-                try {
-                    JSONObject jsonObj = new JSONObject(json);
-                    boolean error = jsonObj.getBoolean("error");
-                    // checking for error node in json
-                    if (!error) {
-                        // new category created successfully
-                        Log.e("Added successfully ",
-                                "> " + jsonObj.getString("message"));
-                    } else {
-                        Log.e("Add Prediction Error: ",
-                                "> " + jsonObj.getString("message"));
+        PostResponseAsyncTask task1 = new PostResponseAsyncTask(PatientDisplay.this,
+                new AsyncResponse() {
+                    @Override
+                    public void processFinish(String s) {
+                        Log.d(LOG, s);
+                        if (s.contains("Your Chances of UTI is predominant!")) {
+                            //Toast.makeText(SecondActivity.this, "Drug Successfully found", Toast.LENGTH_LONG).show();
+                            Intent intent = new Intent(PatientDisplay.this, DisplayActivity.class);
+                            startActivity(intent);
+
+                        } else {
+                            Toast.makeText(PatientDisplay.this, "It seems you are safe.", Toast.LENGTH_LONG).show();
+                        }
+
                     }
+                });
+            task1.execute("http://www.e-bioinformatics.net/db/utipedia/test/login2.php");
+    }}
 
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-
-            } else {
-                Log.e("JSON Data", "JSON data error!");
-            }
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(Void result) {
-            super.onPostExecute(result);
-        }
-    }
-}
