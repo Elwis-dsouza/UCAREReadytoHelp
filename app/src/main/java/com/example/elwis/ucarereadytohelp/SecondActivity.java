@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.util.StringBuilderPrinter;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -17,6 +18,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.HashMap;
+import java.util.Objects;
 
 
 public class SecondActivity extends AppCompatActivity implements View.OnClickListener {
@@ -57,9 +59,23 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
                                         Intent intent = new Intent(SecondActivity.this, DisplayActivity.class);
                                         intent.putExtra("Drugname", etDrugname.getText().toString());
                                         intent.putExtra("Referenceid", Referenceid);
-                                        intent.putExtra("pmid", jsonObject.getJSONArray("pmid").toString());
-                                        startActivity(intent);
+                                        int length = jsonObject.getJSONArray("pmid").length();
+                                        StringBuilder finalString = new StringBuilder();
+                                        for (int i = 0; i < length; i++) {
+                                            String pmid = jsonObject.getJSONArray("pmid").getString(i);
+                                            /*
 
+
+
+                                                        make link here
+
+
+
+                                            */
+                                            finalString.append(pmid);
+                                        }
+                                        intent.putExtra("pmid", finalString.toString());
+                                        startActivity(intent);
                                     } else if (jsonObject.getString("status").toLowerCase().equals("drug not found")) {
                                         Intent intent = new Intent(SecondActivity.this, Display2Activity.class);
                                         intent.putExtra("Drugname", etDrugname.getText().toString());
