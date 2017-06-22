@@ -52,14 +52,18 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
                                 Log.d(LOG, s);
                                 try {
                                     JSONObject jsonObject = new JSONObject(s);
-                                    if(jsonObject.getString("status").equals("Drug Found")) {//(s.contains("Drug Not found")) {
+                                    if(jsonObject.getString("status").toLowerCase().equals("drug found")) {//(s.contains("Drug Not found")) {
                                         //Toast.makeText(SecondActivity.this, "Drug Successfully found", Toast.LENGTH_LONG).show();
                                         Intent intent = new Intent(SecondActivity.this, DisplayActivity.class);
                                         intent.putExtra("Drugname", etDrugname.getText().toString());
                                         intent.putExtra("Referenceid", Referenceid);
-                                        intent.putExtra("pmid", jsonObject.getJSONArray("status").toString());
+                                        intent.putExtra("pmid", jsonObject.getJSONArray("pmid").toString());
                                         startActivity(intent);
 
+                                    } else if (jsonObject.getString("status").toLowerCase().equals("drug not found")) {
+                                        Intent intent = new Intent(SecondActivity.this, Display2Activity.class);
+                                        intent.putExtra("Drugname", etDrugname.getText().toString());
+                                        startActivity(intent);
                                     } else {
                                         Toast.makeText(SecondActivity.this, "Something went wrong", Toast.LENGTH_LONG).show();
                                     }
