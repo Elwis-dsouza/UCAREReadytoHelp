@@ -12,19 +12,6 @@
     tools:context="com.example.elwis.ucarereadytohelp.DisplayActivity"
     android:background="@color/colorPrimaryDark">
 
-    <TextView
-        android:text="is resistant against Escherichia coli.                        For further details see the following bibliography"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:textSize="30sp"
-        android:textColorLink="?attr/colorPrimary"
-        android:textAlignment="center"
-        android:textColor="@android:color/black"
-        android:layout_marginTop="21dp"
-        android:layout_below="@+id/result"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="match_parent"
@@ -40,14 +27,36 @@
         android:layout_marginRight="13dp"
         android:layout_marginEnd="13dp" />
 
+
+
+
+
+    <TextView
+        android:text="is been reported resistant against Escherichia coli. see the following bibliography:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="30sp"
+        android:textColorLink="?attr/colorPrimary"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/result"
+        android:layout_alignParentLeft="true"
+        android:gravity="left"
+        android:layout_alignParentStart="true" />
+
+
     <TextView
         android:id="@+id/PMID"
         android:layout_width="match_parent"
-        android:layout_height="130dp"
+        android:layout_height="match_parent"
+        android:gravity="left"
         android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
         android:layout_below="@+id/textView2"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="42dp" />
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

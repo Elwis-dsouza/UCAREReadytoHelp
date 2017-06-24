@@ -3,64 +3,39 @@ package com.example.elwis.ucarereadytohelp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Html;
+import android.text.Spannable;
+import android.text.method.LinkMovementMethod;
+import android.text.util.Linkify;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
-import org.w3c.dom.Comment;
+import static com.example.elwis.ucarereadytohelp.R.id.PMID;
 
+@SuppressWarnings("deprecation")
 public class DisplayActivity extends AppCompatActivity {
 
-  //  private TextView Referenceid;
-
     @Override
-protected void onCreate(Bundle savedInstanceState) {
-   super.onCreate(savedInstanceState);
- setContentView(R.layout.activity_display);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_display);
 
-       TextView nameView=(TextView)findViewById(R.id.result);
-     nameView.setText(getIntent().getExtras().getString("Drugname"));
-
+        TextView nameView=(TextView)findViewById(R.id.result);
+        final TextView pmidTextView = (TextView) findViewById(R.id.PMID);
+        nameView.setText(getIntent().getExtras().getString("Drugname"));
 
         Intent intent = getIntent();
-        TextView Referenceid=(TextView)findViewById(R.id.PMID);
-        Post myComment = (Post )intent.getParcelableExtra("Referenceid");
-        String pmid = myComment.getReference();
-       // Referenceid.setText(getIntent().getExtras().getString("Referenceid"));
-        //nameView.setText("Referenceid");
+        String pmid = intent.getExtras().getString("pmid");
+        pmidTextView.setClickable(true);
+        pmidTextView.setMovementMethod(LinkMovementMethod.getInstance());
+        pmidTextView.setText(Html.fromHtml(pmid));
+        Linkify.addLinks(pmidTextView, Linkify.WEB_URLS);
 
-       // Bundle bundle= getIntent().getExtras();
-        //TextView Referenceid = (TextView) findViewById(R.id.PMID);
-        //Referenceid.setText(bundle.getCharSequence("Referenceid"));
-       // String Referenceid = bundle.getString("Referenceid");
+        // nameView.setMovementMethod(LinkMovementMethod.getInstance());
+        //nameView.setText(Html.fromHtml(pmid));
+        //Linkify.addLinks((Spannable) nameView, Linkify.WEB_URLS);
 
-        //Create the text view
-      //  TextView textView = new TextView(this);
-        //textView.setTextSize(40);
-      //  textView.setText(Referenceid);
-
-        //set the text view as the activity layout
-       // setContentView(textView);
-
-
-
-
-
-
-
-//get the values by their keys
-        //String Drugname =bundle.getString("Drugname");
-        //TextView Referenceid=(TextView)findViewById(R.id.PMID);
-       // Referenceid.setText(getIntent().getExtras().toString());
-       //String Referenceid =bundle.toString();
-// do whatever you like to the data
-
-
-
-        //TextView PMID=(TextView)findViewById(R.id.PMID);
-        //PMID.setText(getIntent().getExtras().getString("Referenceid"));
-        //PMID.setText("Referenceid");
-  //Linkify.addLinks(PMID, Linkify.WEB_URLS);
-}
-
+    }
 
 }
-
