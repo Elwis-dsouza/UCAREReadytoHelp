@@ -20,6 +20,8 @@ import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 
+
+@SuppressWarnings("deprecation")
 public class ServiceHandler {
     static InputStream is = null;
     static String response = null;
