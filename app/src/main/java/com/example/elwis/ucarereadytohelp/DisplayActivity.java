@@ -1,14 +1,16 @@
 package com.example.elwis.ucarereadytohelp;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+//import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.widget.TextView;
 
 @SuppressWarnings("deprecation")
-public class DisplayActivity extends AppCompatActivity {
+public class DisplayActivity extends AppCompatActivity  {
 
     @Override
 protected void onCreate(Bundle savedInstanceState) {

@@ -1,6 +1,7 @@
 package com.example.elwis.ucarereadytohelp;
 
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -64,7 +65,7 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
                                     finalString.append("https://www.ncbi.nlm.nih.gov/pubmed/");
                                     finalString.append(pmid);
                                     finalString.append(';');
-                                    finalString.append(' ');
+                                    finalString.append(" ");
                                 }
                                 intent.putExtra("pmid", finalString.toString());
                                 startActivity(intent);
