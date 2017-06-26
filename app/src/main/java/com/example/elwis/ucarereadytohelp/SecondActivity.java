@@ -62,10 +62,11 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
                                 StringBuilder finalString = new StringBuilder();
                                 for (int i = 0; i < length; i++) {
                                     String pmid = jsonObject.getJSONArray("pmid").getString(i);
-                                    finalString.append("https://www.ncbi.nlm.nih.gov/pubmed/");
+                                    finalString.append("<a href='https://www.ncbi.nlm.nih.gov/pubmed/");
                                     finalString.append(pmid);
-                                    finalString.append(';');
-                                    finalString.append(" ");
+                                    finalString.append("'>");
+                                    finalString.append(pmid);
+                                    finalString.append("</a>, ");
                                 }
                                 intent.putExtra("pmid", finalString.toString());
                                 startActivity(intent);
